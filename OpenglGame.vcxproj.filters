@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{ce80b4bf-b5ed-4a2b-97d8-a76feb203949}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FPSCamera.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsEngine.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneController.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="shader.frag">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="shader.vert">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="ModelShader_frag.glsl">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="ModelShader_vert.glsl">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="ShadowShader_frag.glsl">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="ShadowShader_vert.glsl">
+      <Filter>Resource</Filter>
+    </None>
+  </ItemGroup>
+</Project>
